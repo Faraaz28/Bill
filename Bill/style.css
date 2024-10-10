@@ -1,0 +1,209 @@
+
+body {
+    font-family: Arial, sans-serif;
+  }
+
+.logo{
+    height: 110px;
+    float: right;
+    margin-right: 10px;
+    margin-top: -30px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .heading{
+    justify-content: center;
+    margin-left: 555px;
+    margin-top: -35px;
+  }
+
+  .heading-2{
+    justify-content: center;
+    margin-left: 560px;
+  }
+
+  .heading-all{
+    margin-top: 65px;
+  }
+
+  .paid{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 295px;
+    opacity: 0.3;
+    transform: rotate(-25deg);
+   
+}
+
+  .Terms{
+    text-align: left;
+    text-decoration: underline;
+  }
+
+  
+  .terms {
+    margin-bottom: 20px;
+  }
+  
+  .terms li {
+    margin-bottom: 10px;
+  }
+  
+  .contact {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .disclaimer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    text-align: center;
+  }
+
+
+
+
+
+
+/* 
+   @media only screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+
+    .logo{
+       
+        height: 80px;
+        margin-right: 10px;
+        margin-top: -80px;
+    }
+
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .heading-all {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .heading {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: -30px;
+        margin-left: 120px;
+    }
+
+    .heading-2 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: -10px;
+        margin-left: 120px;
+    }
+
+    table {
+        
+        margin-left: 1px;
+      
+      
+        
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #ffffff;
+    }
+
+    .terms {
+        margin-bottom: 20px;
+    }
+
+    .terms ul {
+        list-style-type: disc;
+        margin-left: 20px;
+      
+    }
+
+    .contact {
+        margin-bottom: 20px;
+    }
+
+    .disclaimer {
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 100%;
+        max-width: 768px;
+    }
+    .paid{
+
+        margin-left: 40px;
+        margin-top: 100px;
+        height: 280px;
+
+    }
+
+    .thanks{
+        margin-left: 10px;
+    }
+
+    
+  .Terms{
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .paid{
+
+    position: absolute;
+    margin-top: 180px;
+    margin-left: -20px;
+    height: 180px;
+    opacity: 0.2;
+    transform: rotate(-25deg);
+   
+}
+}  */
